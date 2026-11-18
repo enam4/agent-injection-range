@@ -90,8 +90,9 @@ Fisher exact tests (two-sided):
 ## Files
 - **Data:** scoreboard.json and runs/*.jsonl (episodes; fake keys and documents only).
 - **Images:**
-  - img1-scoreboard-grid.png: card grid per model.
-  - img2-channel-matrix.png: hiding spot × model / defence.
-  - term1-scoreboard.png: rendered from real show.py output.
+  - assets/banner.png: dithered header.
+  - assets/hijack-by-defence.png: hijack rate per model and defence.
+  - assets/hiding-spots.png: hiding spot × model (no defence) and × defence (pooled).
+  - assets/show.png: the real show.py output, rendered by make_figures.py.
 - **Post draft:** post-draft.txt.
-- **Scripts:** corpus.py, agent.py, score.py, show.py, render.py, run_all.sh, plus lib/ (hfgen.py, style.py, term.py).
+- **Scripts:** corpus.py, agent.py, score.py, show.py, make_figures.py, run_all.sh, figstyle.py (chart style), plus lib/hfgen.py.
