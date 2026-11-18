@@ -94,5 +94,4 @@ Fisher exact tests (two-sided):
   - assets/hijack-by-defence.png: hijack rate per model and defence.
   - assets/hiding-spots.png: hiding spot × model (no defence) and × defence (pooled).
   - assets/show.png: the real show.py output, rendered by make_figures.py.
-- **Post draft:** post-draft.txt.
 - **Scripts:** corpus.py, agent.py, score.py, show.py, make_figures.py, run_all.sh, figstyle.py (chart style), plus lib/hfgen.py.
